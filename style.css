@@ -74,10 +74,10 @@ button {
 }
 
 .dog {
-    flex: 1;
     width: 150px;
     height: 150px;
     border-radius: 25px;
+    border: 3px solid #3882f6;
     
 }
 
@@ -91,7 +91,7 @@ button {
 .text {
     text-align: center;
     padding-top: 10px;
-    width: 150px;
+    width: 156px;
     color: #1f2937;
 }
 
