@@ -81,12 +81,16 @@ button {
     
 }
 
-.dogs, .desc {
+.dogs {
     display: flex;
-    flex: 1;
-    justify-content: space-around;
-    padding: 0 100px;
-}
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 0 20px;
+  }
 
 .text {
     text-align: center;
